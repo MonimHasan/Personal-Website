@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
 p{line-height: 150%;margin-bottom: 2em;}
 .container_full {width: 100%; height: auto;}
 .container {width:960px; margin:0 auto; display:block }
+
+        /*Header Part*/
+
 .header_bg{
     background-image:url(img/header-bg.png);
     background-repeat:no-repeat;
@@ -17,6 +20,7 @@ p{line-height: 150%;margin-bottom: 2em;}
 }
 
 .left_content{
+    margin-top:100px;
     float:left;
     width:500px;
     display:inline;
@@ -41,10 +45,15 @@ p{line-height: 150%;margin-bottom: 2em;}
     border-radius:5px;
 }
 .img_section{
+    margin-top:30px;
     float:right;
     width:400px;
     overflow:hidden;
 }
+
+
+    /*Header Bottom Area (Biography Part)*/
+
 .header_bottom_bg{
     background-image:url(img/biography-bg.png);
     background-repeat:no-repeat;
@@ -72,9 +81,101 @@ p{line-height: 150%;margin-bottom: 2em;}
 }
 .right_content>h2{
     color:#202428;
+    font-weight:bold;
+    font-size:30px;
     
 }
 .right_content>p{
     color:#727272;
     font-size:13px;
+}
+
+        /* Lates Work Area */
+
+.Latest_work_bg{
+    background:url(img/latest-work-bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:50px;
+    overflow:hidden;
+}
+
+#Latest_work{
+    overflow:hidden;
+}
+#Latest_work>h2{
+    text-align:center;
+    color:#202428;
+    padding:20px;
+    font-weight:bold;
+    font-size:50px;
+}
+.image_part{
+    margin-top:30px;
+}
+.image_part img{
+    margin-top:50px;
+    height:260;
+    width:300px;
+    margin-right:15px;
+    margin-bottom:150px;
+}
+
+
+        /*Footer Area*/
+.footer_bg{
+    background-image:url(img/footer-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+}
+#footer>h2{
+    text-align:center;
+    color:#202428;
+    padding:20px;
+    font-weight:bold;
+    font-size:50px;
+    margin-bottom:60px;
+}
+#footer>h3{
+    text-align:center;
+    color:#202428;
+    font-weight:bold;
+    font-size:20px;
+}
+#footer>h5{
+    text-align:center;
+    color:#707070;
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:30px;
+}
+.footer_pera{
+    text-align:center;
+    font-size:20px;
+    color:#333333;
+    padding:10px;
+}
+.message_section{
+    background:#ed4b73;
+    padding:50px 100px;
+    border-radius:5px;
+    display:inline-block;
+    overflow:hidden;
+    margin-left:205px;
+}
+.message_section>h3{
+    color:#ffffff;
+    text-align:center;
+
+}
+.message_section h2{
+    color:#ffffff;
+    font-weight:bold;
+}
+.last_pera{
+    text-align:center;
+    color:#707070;
+    margin-top:100px;
+    font-size:15px;
+    padding:10px 20px;
 }
